@@ -1,0 +1,35 @@
+mat-form-field {
+    font-size: 20px;
+    width: 16%;
+    margin-right: 20px;
+    border: 2px solid #4978c0;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+mat-form-field:hover {
+    background-color: #FF00FF;
+  }
+  
+::ng-deep .mat-form-field-wrapper{
+    margin-bottom: -1.25em;
+ }
+
+ form {
+    justify-content: center;
+    display: flex;
+ }
+.c-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-text {
+    color: #ffff;
+}
+
+.c-content {
+    width: 100%;
+    margin-top: 20%;
+    padding-right: 20px;
+}

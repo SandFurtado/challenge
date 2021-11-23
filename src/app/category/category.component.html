@@ -1,0 +1,24 @@
+<section class="c-container">
+    <div class="c-content">
+        <form>
+            <mat-form-field appearance="fill">
+                <mat-label class="c-text">Category Management</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let element of category" [value]="element.value">
+                        {{element.viewValue}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label class="c-text">Device Management</mat-label>
+                <mat-select>
+                    <mat-option *ngFor="let element of category" [value]="element.value">
+                        {{element.viewValue}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </form>
+    </div>
+  
+</section>
